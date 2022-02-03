@@ -81,7 +81,7 @@ export default function Home() {
       </div>
     </div>
     <div className="twoUpBlockImg">
-    <img srcset={`${desktopImgPath} 343w,
+    <img srcSet={`${desktopImgPath} 343w,
                  ${mobileImgPath} 588w`}
          sizes="(max-width: 1200px) 343px, 588px" 
          src="images/125apy.png"
